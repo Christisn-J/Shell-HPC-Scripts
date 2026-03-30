@@ -1,0 +1,43 @@
+# Custom folders
+**/archiv*/
+**/log*/
+**/submit*/
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (falls relevant)
+__pycache__/
+*.pyc
+
+# Temp
+*.tmp
+.cache/
+
+# Test / Coverage
+coverage/
