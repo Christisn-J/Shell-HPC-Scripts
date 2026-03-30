@@ -1,0 +1,27 @@
+[sirius]
+user=USERNAME
+host=HOSTNAME
+path=PATH
+sshOpts=(-X)
+port=22
+
+[naboo]
+user=USERNAME
+host=HOSTNAME
+path=PATH
+sshOpts=(-X -o StrictHostKeyChecking=no)
+port=22
+
+[kamino]
+user=USERNAME
+host=HOSTNAME
+path=PATH
+sshOpts=(-X -o StrictHostKeyChecking=no)
+port=22
+
+[binac2]
+user=USERNAME
+host=HOSTNAME
+path=PATH
+sshOpts=(-X)
+port=22

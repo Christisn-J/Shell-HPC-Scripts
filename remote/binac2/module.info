@@ -1,0 +1,24 @@
+#Compile error::
+#- unsupported GNU version! | well-known: Version gcc <= 11 => compiler/gnu/11.4
+#1) devel/cuda/11.8   2) compiler/gnu/13.3   3) mpi/openmpi/4.1-gnu-13.3   4) lib/boost/1.88.0-openmpi-4.1-gnu-13.3   5) lib/hdf5/1.12-gnu-13.3-openmpi-4.1
+#1) devel/cuda/11.8   2) compiler/gnu/14.2   3) mpi/openmpi/4.1-gnu-14.2   4) lib/boost/1.88.0-openmpi-4.1-gnu-14.2   5) lib/hdf5/1.12-gnu-14.2-openmpi-4.1
+#1) devel/cuda/12.6   2) compiler/gnu/14.2   3) mpi/openmpi/4.1-gnu-14.2   4) lib/boost/1.88.0-openmpi-4.1-gnu-14.2   5) lib/hdf5/1.12-gnu-14.2-openmpi-4.1
+
+#Link error:
+#- cannot find -lmpi
+#1) devel/cuda/12.6   2) compiler/gnu/13.3   3) mpi/openmpi/4.1-gnu-13.3   4) lib/boost/1.88.0-openmpi-4.1-gnu-13.3   5) lib/hdf5/1.12-gnu-13.3-openmpi-4.1
+#1) devel/cuda/12.8   2) compiler/gnu/13.3   3) mpi/openmpi/4.1-gnu-13.3   4) lib/boost/1.88.0-openmpi-4.1-gnu-13.3   5) lib/hdf5/1.12-gnu-13.3-openmpi-4.1
+#1) devel/cuda/12.8   2) compiler/gnu/14.2   3) mpi/openmpi/4.1-gnu-14.2   4) lib/boost/1.88.0-openmpi-4.1-gnu-14.2   5) lib/hdf5/1.12-gnu-14.2-openmpi-4.1
+
+
+#Runtime error:
+#- Segmentation fault
+#1) devel/cuda/11.8   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.78-openmpi-4.1-gnu-11.4   5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+#1) devel/cuda/12.6   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.78-openmpi-4.1-gnu-11.4     5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+#1) devel/cuda/12.8   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.78-openmpi-4.1-gnu-11.4     5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+#1) devel/cuda/11.8   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.88.0-openmpi-4.1-gnu-11.4   5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+#1) devel/cuda/12.6   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.88.0-openmpi-4.1-gnu-11.4   5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+#1) devel/cuda/12.8   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.88.0-openmpi-4.1-gnu-11.4   5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1
+
+#Selected:
+1) devel/cuda/11.8   2) compiler/gnu/11.4   3) mpi/openmpi/4.1-gnu-11.4   4) lib/boost/1.78-openmpi-4.1-gnu-11.4   5) lib/hdf5/1.12-gnu-11.4-openmpi-4.1   6) vis/ffmpeg/ffmpeg-5.1
