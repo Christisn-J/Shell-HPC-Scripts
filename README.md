@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shell-Scripts
 
 ## Overview
@@ -25,3 +26,6 @@ This repository contains a collection of useful **shell scripts** aimed at autom
 1. Clone the repository:
    ```bash
    git clone https://github.com/Christisn-J/Shell-Scripts.git
+=======
+# Shell-Scripts
+>>>>>>> 2c9b6f9db16a5b24fbc12020cb526022444cba45
